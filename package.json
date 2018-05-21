@@ -1,6 +1,6 @@
 {
   "name": "react-t-minus-timer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple countdown timer component for React",
   "main": "dist/index.js",
   "scripts": {
@@ -16,6 +16,11 @@
     "url": "https://github.com/jo-apichai/react-countdown-timer/issues"
   },
   "homepage": "https://github.com/jo-apichai/react-countdown-timer#readme",
+  "keywords": [
+    "react",
+    "countdown",
+    "timer"
+  ],
   "peerDependencies": {
     "prop-types": ">= 15.x",
     "react": ">= 15.x"
