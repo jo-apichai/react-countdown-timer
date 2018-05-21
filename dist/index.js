@@ -116,25 +116,25 @@ var Timer = function (_Component) {
         { className: 't-minus-timer' },
         _react2.default.createElement(
           'span',
-          { className: 'day' },
+          { className: 'days' },
           days
         ),
         this.renderSeparator('day'),
         _react2.default.createElement(
           'span',
-          { className: 'hour' },
+          { className: 'hours' },
           hours
         ),
         this.renderSeparator('hour'),
         _react2.default.createElement(
           'span',
-          { className: 'minute' },
+          { className: 'minutes' },
           minutes
         ),
         this.renderSeparator('minute'),
         _react2.default.createElement(
           'span',
-          { className: 'second' },
+          { className: 'seconds' },
           seconds
         ),
         this.renderSeparator('second')

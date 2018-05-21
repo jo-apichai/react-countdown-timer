@@ -88,13 +88,13 @@ class Timer extends Component {
 
     return (
       <div className='t-minus-timer'>
-        <span className='day'>{days}</span>
+        <span className='days'>{days}</span>
         {this.renderSeparator('day')}
-        <span className='hour'>{hours}</span>
+        <span className='hours'>{hours}</span>
         {this.renderSeparator('hour')}
-        <span className='minute'>{minutes}</span>
+        <span className='minutes'>{minutes}</span>
         {this.renderSeparator('minute')}
-        <span className='second'>{seconds}</span>
+        <span className='seconds'>{seconds}</span>
         {this.renderSeparator('second')}
       </div>
     )
