@@ -1,0 +1,30 @@
+{
+  "name": "react-t-minus-timer",
+  "version": "0.1.0",
+  "description": "A simple countdown timer component for React",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jo-apichai/react-countdown-timer.git"
+  },
+  "author": "Jo Apichai <jo.midnight@gmail.com> (https://github.com/jo-apichai)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jo-apichai/react-countdown-timer/issues"
+  },
+  "homepage": "https://github.com/jo-apichai/react-countdown-timer#readme",
+  "peerDependencies": {
+    "prop-types": ">= 15.x",
+    "react": ">= 15.x"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.3.2"
+  }
+}
